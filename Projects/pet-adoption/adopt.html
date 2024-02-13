@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robogarden Pet Shelter</title>
+</head>
+  <style>
+    body {
+      margin-left: 30%;
+      padding: 30px;
+    }
+
+    table, td{
+      height: 70px;
+      border: 2px solid black;
+      display: flexbox;
+      padding: center;
+
+    }
+    th {
+      border:2px solid black;
+    }
+
+    .husky {
+      background-size: 100% 100%;
+      background-image: url('https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTk2Njc0ODUxNzAyODQzMTk4/colors-of-siberian-huskies.png');
+      background-repeat: no-repeat;
+      background-position: center;    
+    }
+
+    .labrador {
+      background-image: url('https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/labrador-retriever-dog-breed-info.jpeg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;  
+    }
+
+    .golden {
+      background-image: url('https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;  
+
+    }
+    .shelter {
+      margin-left: 110px;
+      margin-bottom: 1px;
+    }
+    .adopt{
+      margin-left: 100px;
+      margin-top: 20px;
+    }
+    h2 {
+      padding-left: 80px;
+    }
+    form {
+      margin: 5px;
+      padding: 10px;
+      border-radius: 14px;
+      font-size: 20px;
+
+    }
+  </style>
+<body>
+  <div class="container">
+      <div class="title">
+        <a href="#">Home</a><br>
+        <a href="#">Adopt a Pet</a>
+        <h1>Welcome to Robogarden Pet Shelter</h1>
+        <p>We serve as home for hundreds of pets</p>
+      </div>
+
+      <p class="shelter">Robogarden Shelter Pets</p>
+      <div class="table">
+      <table>
+        <tr>
+          <th>ID Number</th>
+          <th >Picture</th>
+          <th>Breed</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+        </tr>
+
+        <tr>
+          <td>001</td>
+          <td class="husky">          </td>
+          <td>Husky</td>
+          <td>Bruno</td>
+          <td>4</td>
+          <td>Male</td>
+        </tr>
+
+        <tr>
+          <td>002</td>
+          <td class="labrador"></td>
+          <td>Labrador</td>
+          <td>Jenny</td>
+          <td>2</td>
+          <td>Female</td>
+        </tr>
+
+        <tr>
+          <td>003</td>
+          <td class="golden">          </td>
+          <td>Golden Retriever</td>
+          <td>Paulo</td>
+          <td>8</td>
+          <td>Male</td>
+        </tr>
+      </table>
+    </div>
+    <div class="adopt">
+        <a href="#"> Home</a><br>
+        <a href="#"> Adopt a Pet</a>
+    </div>
+    <h2>Adopt a pet</h2>
+    <form class="form">
+      <p>Fill the form below to aplly for pet adoption.</p>
+      <label class="textlabel" for="idNumber">Pet ID Number:</label>
+      <input id="idNumber" type="text" ><br>
+      <label class="textlabel" for="yourName">Your Name:</label>
+      <input id="yourName" type="text" ><br>
+      <label class="textlabel" for="phone">Phone Number:</label>
+      <input id="phone" type="text" ><br>
+      <label class="textlabel" for="email">Email:</label>
+      <input id="email" type="text" ><br>
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+</body>
+</html>
